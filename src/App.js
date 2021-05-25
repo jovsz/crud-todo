@@ -1,11 +1,11 @@
-import './App.css';
-import TodoContainer from './components/TodoContainer'
+import React from 'react';
+import './style.css'
+import RequestMethod from './components/TodoContainer';
 
 function App() {
   return (
     <div className="App">
-      <div>Hola mundo</div>
-      <TodoContainer />
+        <RequestMethod/>
     </div>
   );
 }
